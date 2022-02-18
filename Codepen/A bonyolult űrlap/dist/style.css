@@ -1,0 +1,10 @@
+body {
+  width: 400px;
+}
+
+textarea {
+  height: 100px;
+  width: 200px;
+}
+
+input.submit {margin-left: 2px;}

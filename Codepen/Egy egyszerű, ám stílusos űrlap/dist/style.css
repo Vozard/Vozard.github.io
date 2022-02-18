@@ -1,0 +1,25 @@
+body {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+}
+
+div {
+  margin: 15px 0 0 0;
+}
+
+input {
+  display: block;
+  border-color: lightGreen;
+  border-radius: 5px;
+}
+
+button {
+  margin: 10px 0 0 0;
+  padding: 10px;
+  background-color: lightGreen;
+  border-radius: 25px;
+}
+
+label, button{
+  text-transform: uppercase;
+}

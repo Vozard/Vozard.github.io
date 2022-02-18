@@ -1,0 +1,11 @@
+div {
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  background-color: #0D91A1;
+  color: #015668;
+  margin: 10px;
+  padding: 10px 70px 80px 20px;
+  border: solid #7DCE94;
+  height: 50px;
+  width: 300px;
+}

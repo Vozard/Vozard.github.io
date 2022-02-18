@@ -1,0 +1,44 @@
+.header {
+  background-color: purple;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.containerMainAside {
+  display: flex;
+  flex-direction: row;
+}
+
+.blue1, .blue2, .blue3 {
+  margin: 8px;
+  height: 30px;
+}
+
+.item.blue1, .item.blue3 {
+  background-color: cyan;
+  flex-grow: 2;
+}
+
+.item.blue2 {
+  background-color: cyan;
+  flex-grow: 3;
+}
+
+.none {
+  flex-grow: 5;
+}
+
+.item.main {
+  background-color: yellow;
+  height: 500px;
+  flex-grow: 3;
+}
+
+.item.aside {
+  background-color: lime;
+  height: 500px;
+  flex-grow: 1;
+}

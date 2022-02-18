@@ -1,0 +1,52 @@
+.containerone {
+  display: flex;
+  flex-direction: row;
+}
+
+.containertwo {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.containerthree {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.containerfour {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.containerfive {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+}
+
+.item.green {
+  background-color: #51d400;
+}
+
+.item.yellow {
+  background-color: #ffd62a;
+}
+
+.item.purple {
+  background-color: #b02afe;
+}
+
+p {
+  border-top: solid 2px gray;
+  padding: 5px;
+}

@@ -1,0 +1,20 @@
+main {
+  font-family: "Sen";
+}
+
+img {
+  width: 150px;
+}
+
+div.container {
+  display: flex;
+}
+
+.item {
+  text-align: center;
+  margin: 0 10px;
+}
+
+a.link {
+  display: block;
+}
